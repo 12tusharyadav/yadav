@@ -1,0 +1,400 @@
+*
+{
+	margin:0px;
+	padding: 0px;
+  color:grey;
+}
+
+#formshomes
+{
+  border-radius: 12px;
+  padding: 30px;
+}
+nav ul
+{
+	float: right;
+	margin-right: 25px;
+} 
+nav ul li
+{
+	display: inline-block;
+	margin: 0 15px ;
+	text-decoration: none;
+}
+nav ul li a
+{
+position: relative;
+color: grey;
+text-decoration: none;
+}
+nav ul li a:hover
+{
+	text-decoration: none;
+}
+label #btn,
+label #cancel
+{
+	 font-size: 30px;
+  line-height: 8px;
+  margin-right:40px;
+  float: right;
+  cursor: pointer;
+  display: none;  
+}
+#check
+{
+	display: none;
+}
+.section-0
+{
+    z-index: 5;
+    position: relative;
+}
+.header {
+  padding: 10px 16px;
+  background: 
+  color: #f1f1f1;
+  z-index: 4;
+}
+
+
+
+.section-0.sticky {
+  position: fixed;
+  top: 0;
+  
+  width: 100%;
+  
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  
+  left: 0;
+  right: 0;
+}
+
+
+
+.section-1
+{
+
+
+
+
+
+  
+     position: relative;
+
+      width: 100%;
+   height: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/1.jpg) center top no-repeat;
+    background-size: cover;
+    background-position:center center;
+        padding: 32vh 0;
+        margin-top: -60px;
+   
+}
+
+.ccs
+{
+ color: #00ca4c;
+ text-decoration: none;
+}
+.ccs:hover
+{
+ color: #00ca4c;
+ text-decoration: none;
+
+}
+.ccsu
+{
+  color: white;
+  font-weight: 300;
+}
+
+
+
+.section-1 #button
+{
+	border: 1px solid #00ca4c;
+	color: white;
+	background-color:#00ca4c;
+	padding: 10px;
+  text-decoration: none;
+}
+.section-1 .cityguides
+{
+	font-size: 3.5rem;
+	font-weight: 300;
+  color: white;
+}
+.section-1 .cityguides-p>a
+{
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: #00ca4c;
+	text-decoration: none;
+}
+.section-1 .cityguides-p
+{
+  color: white;
+}
+.section-1 .cityguides-a
+{
+	background-color: #00ca4c;
+	border: 1px solid  #00ca4c;
+	padding: 12px;
+	text-decoration: none;
+
+}
+.section-2
+{
+	padding-bottom: 15%;
+}
+.section-2 .content-p
+{
+	   
+    text-align: center;
+  font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 4;
+    padding: 40px;
+   
+}
+.section-2 .content-h2 
+{
+	font-size: 55px;
+	
+}
+
+.border-bottom {
+    display: block;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.section-3 
+{
+	padding-bottom: 15%;
+}
+.section-3 h1
+{
+	    font-size: 3.5rem;
+}
+.section-3 .cityguides-sec2-a
+{
+	background-color: #00ca4c;
+	border: 1px solid  #00ca4c;
+	padding: 12px;
+		text-decoration: none;
+
+
+}
+
+.section-5 .resimg
+{
+	 width: 270px;
+	 height: 258px;
+}
+.section-5 h1, p
+{
+  color: grey;
+}
+
+
+
+.section-6
+{
+	padding-bottom: 15%;
+}
+.section-6 .content-p
+{
+	   
+    text-align: center;
+  font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 4;
+    padding: 40px;
+   
+}
+.section-6 .content-h2 
+{
+	font-size: 55px;
+	
+}
+.section-7 h6
+{
+	font-size: 19px;
+}
+.section-7 p
+{
+margin-bottom: 0px;
+}
+
+
+.footer a
+{
+	text-decoration: none;
+	color:green;
+}
+.footer p
+{
+  color:grey;
+}
+.slider-content1 .img-fluid
+{
+	       max-width: 100%;
+    height: auto;
+}
+.carousel-control-prev-icon
+{
+	
+}
+.carousel-control-next-icon
+{
+		bottom: 15px;
+	position: relative;
+}
+.carousel-indicators li {
+
+   background-color: green;
+   }
+  
+.carousel-item .shadow-box
+{
+	  -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.05);
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.05);
+    padding:30px;
+  
+}
+.contact-form {
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.05);
+    box-shadow: 0 2px 10px 0 #adb5bd;
+    padding: 30px;
+}
+
+.taj-slider .icon-handle
+{
+	padding:50px;
+	position: relative;
+}
+
+.taj-slider .carousel-control-prev-icon 
+{
+	position: relative;
+	left: -100px;
+}
+.taj-slider .carousel-control-next-icon 
+{
+	position: relative;
+	left: 100px;
+}
+.taj-slider .carousel-indicators {
+   
+    bottom: -100px;
+   
+}
+
+inout[type='text'],select,input[type='date'],textarea{
+	background-color: #DFDFDF;
+	padding: 10px 20px;
+	border:1px solid #efefef;
+	width:100%;
+	margin-bottom: 30px;
+}
+input[type='submit']
+{
+  background-color:#00ca4c; 
+    padding: 10px 20px;
+  border:1px solid #efefef;
+  width:100%;
+  margin-bottom: 30px;
+}
+
+
+
+@media(max-width: 991px)
+{
+	.section-7 p {
+   font-size: 12px;
+}
+.section-7 h6 {
+    font-size: 15px;
+}
+}
+@media(max-width:900px)
+{
+
+	.taj-slider .carousel-control-next-icon{
+		display: none;
+	}
+.taj-slider .carousel-control-prev-icon {
+    position: relative;
+    left: -100px;
+    display: none;
+}
+}
+
+@media(max-width:768px){
+  
+label #btn
+{
+
+  display: block;
+  z-index: 999;
+  color: white;
+
+}
+  
+.checked
+{
+  position: relative;
+  display: block;
+  top:0px;
+  text-align: center;
+
+
+}
+
+ul
+{
+  position:fixed;
+  z-index: 1;
+  width: 100%;
+  max-width: 100%;
+top:90px; 
+  
+     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  
+left:-100%;
+text-align:center;
+  transition: all .5s;
+  
+  } 
+  nav ul li
+  {
+    display: block;
+    margin: 50px;
+    line-height: 30px; 
+  }
+    nav ul li a
+    {
+      font-size: 20px;
+    }
+    
+  #check:checked ~ ul 
+  {
+    left:0;
+    opacity: 0.7;
+  }
+  #check:checked ~  label #btn
+  {
+    display: none;
+
+  }
+  #check:checked ~  label #cancel
+  {
+    display: block;
+    color: white;
+  }
+
+
+

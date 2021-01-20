@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<title>form</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+	<div class="container" id="login">
+		<div class="row">
+		
+			<div class="col-md-6 bg-white" style="border: 1px solid black;
+    /* position: absolute; */
+    position: relative;
+    left: 25%; border-radius: 8px;">
+		<div class="row ">
+
+			<div class="col-md-6 mx-auto  text-center ">
+				<h1>My First Form</h1>
+				<img src="images/log.png" class="img-fluid">
+			</div>
+		</div>
+		<div class="row">
+
+			<div class="col-md-10 mx-auto  ">
+				
+		
+				<form action="#" onsubmit="return validation()" >
+					Name:<input type="text" name="firstname" placeholder="firstname" class="form-control "  id="check" >
+					<span id="firstVal"> </span>
+					<br>
+						LastName:<input type="text" name="lastname" placeholder="lastname" class="form-control" id="check1">
+						<span id="secondval"></span>
+						<br>
+						Email:<input type="text" name="email" placeholder="email" class="form-control" id="email">
+						<span id="emails"></span>
+						<br>
+						mobileno:<input type="text" name="mobile" placeholder="mobileno" class="form-control" id="phone">
+						<span id="fourthval"></span>
+						<br>
+					<input type="submit" name="submitButton" value="submit" class="form-control" style="background-color: #89c0fb;">
+				</form>
+		
+		</div>
+		</div>
+	</div>
+</div>
+</div>
+
+
+	<script type="text/javascript">
+		function validation()
+		{
+		var first = document.getElementById('check').value;
+		var second = document.getElementById('check1').value;
+		var fourth= document.getElementById('phone').value;
+		
+
+
+		if (first=="") {
+			document.getElementById('firstVal').innerHTML="please fill the first name";
+			return false;
+		}
+		if((first.length >= 20)||(first.length<=2))
+
+		{
+			document.getElementById('firstVal').innerHTML="please enter 2 ti 20 digits for first-option";
+			return false;
+		}
+
+		if( !isNaN (first)) {
+			document.getElementById('firstVal').innerHTML="please fill the valid characters for section-1";
+			return false;
+		} 
+
+
+
+
+
+		if (second=="") {
+			document.getElementById('secondval').innerHTML="please fill the second name";
+			return false;
+		}
+		if((second.length >= 20)||(second.length<=2))
+
+		{
+			document.getElementById('secondval').innerHTML="please enter the 2 to 20 digits second option";
+			return false;
+		}
+
+		if( !isNaN (second)) {
+			document.getElementById('secondval').innerHTML="please fill the valid characters for section-2";
+			return false;
+		} 
+
+
+
+
+		if (fourth=="") {
+			document.getElementById('fourthval').innerHTML="please enter the mobile no";
+			return false;
+		}
+		if(isNaN(fourth))
+		{
+				document.getElementById('fourthval').innerHTML="please enter the digits only";
+				return false;
+		}
+
+
+
+
+		var chechemail=document.getElementById('email').value;
+		var attherate=chechemail.indexOf('@');
+		var dot=chechemail.indexOf('.');
+		if( attherate<=0)
+		{
+			document.getElementById('emails').innerHTML="please enteer the @ correcr position";
+			return false;
+		}
+		if(dot>=chechemail.length-2)
+		{
+			document.getElementById('emails').innerHTML="please enter the . correct position";
+			return false;
+		}
+		if(dot - attherate <=2)
+		{
+			document.getElementById('emails').innerHTML="please enter the valid email @to . "
+			return false;
+		}
+
+
+
+
+     
+
+	}
+		
+	</script>
+
+</body>
+</html>

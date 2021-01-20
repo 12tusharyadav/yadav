@@ -1,0 +1,26 @@
+*
+{
+	margin:0px;
+	padding: 0px;
+
+}
+	   
+#login
+{
+	
+	   
+    opacity: 1;
+    
+}
+body
+{
+	background: linear-gradient(45deg,#665fee 0%,#27c2de 100%);
+}
+span
+{
+	color:blue;
+}
+.form-control
+{
+	
+}
